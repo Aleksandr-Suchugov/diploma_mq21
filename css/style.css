@@ -1,0 +1,709 @@
+@font-face { 
+  font-family: 'Open Sans'; 
+  src: url(fonts/OpenSans-Bold.woff); 
+  font-weight: 700; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'Open Sans'; 
+  src: url(fonts/OpenSans-Regular.woff); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+
+body {
+  margin: 0;
+  color: #000000;   
+  font-family: 'Open Sans', Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.wellcome-page {
+  height: 100vh; 
+  box-sizing: border-box;
+  background-image: url(football_767.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 6vh 6vw 0 6vw;
+  position: relative;
+}
+.wellcome-page::before {
+  content: "";
+  background-color: #1b1e3f;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.9;
+}
+.svg-logo-2 {
+  width: 42vw;
+  fill: #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.welcome-subject {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+}
+h1.welcome-subject {
+  margin-top: 24vh;
+  margin-bottom: 0;
+}
+h2.welcome-subject {
+  margin: 3vh 0 0 11vw;
+} 
+.links-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0; 
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+}
+.first-page-links-margin {
+  margin-top: 15vh;
+}
+.app-button {
+  text-transform: uppercase;
+  font-size: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 6vh;
+  background-color: #5e42b0;
+  border-radius: 3vh;
+  margin-bottom: 2vh;
+  padding-top: 1vh;
+}
+.app-button:last-child {
+  margin-bottom: 0;
+}
+.direct-app-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  line-height: 10px;
+  color: #ffffff;
+  padding: auto; 
+}
+.call-to-action {
+  margin-left: 2vw;
+  order: 1;
+}
+.store-type {
+  display: block;
+  font-weight: 700; 
+}
+.svg-store-icon {
+  width: 7vw;
+  fill: #ffffff;
+  margin-left: 25vw;
+}
+
+.main-wrapper {
+  margin: 0;
+}
+.athlets-page {
+  padding-top: 9vw;
+}
+.section-subject {
+  margin: 0;
+  padding-left: 6vw;
+  font-size: 50px;
+  font-weight: 700;
+  color: #e7e7e7;
+  text-transform: uppercase;
+}
+.benefit-image-png-f {
+  margin-top: 7vw;
+  position: absolute;
+  left: 18vw;
+}
+.athlets-benifits-list, .players-benifits-list {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.benefit-item {
+  display: block;
+  padding-left: 6vw;
+}
+.bullet-point {
+  font-size: 23px;
+  font-weight: 700;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  vertical-align: sub;
+}
+.first-num::before {
+  content: "01";
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 2vw;
+  vertical-align: super;
+  padding-bottom: 2px;
+  border-bottom: 4px solid #5e42b0;
+}
+.second-num::before {
+  content: "02";
+  color: #000000;
+  font-size: 14px;
+  margin-right: 2vw;
+  vertical-align: super;
+  padding-bottom: 2px;
+  border-bottom: 4px solid #5e42b0;
+}
+.third-num::before {
+  content: "03";
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 2vw;
+  vertical-align: super;
+  padding-bottom: 2px;
+  border-bottom: 4px solid #ffffff;
+}
+.forth-num::before {
+  content: "03";
+  color: #5e42b0;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 2vw;
+  vertical-align: super;
+  padding-bottom: 2px;
+  border-bottom: 4px solid #ffffff;
+}
+.benefit-description {
+  margin-top: 8vw;
+  margin-bottom: 0;
+  padding-bottom: 17vw;
+  padding-right: 7vw;
+}
+.color-f1 {
+  padding-top: 20vw;
+  margin-top: 68vw;
+  background-color: #fafafa;
+}
+.color-f2 {
+  padding-top: 18vw;
+  background-color: #f5f4f9;
+}
+.color-f3 {
+  padding-top: 19vw;
+  color: #ffffff;
+  background-color: #5e42b0;
+}
+.color-f4 {
+  padding-top: 19vw;
+  color: #ffffff;
+  background-color: #090c35;
+}
+.benefit-image-png-b {
+  margin-top: 7vw;
+  position: absolute;
+  left: 4vw;
+}
+.players-page {
+  padding-top: 9vw;
+}
+
+.todo-steps-page {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.todo-cards {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.todo-image, .todo-banner {
+  width: 100%;
+}
+.todo-image {
+  position: relative;
+}
+.purple-square {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 19vw;
+  height: 19vw;
+  background-color: #5e42b0;
+  position: absolute;
+  left: 6vw;
+  top: 95vw;
+}
+.todo-step-id {
+  align-self: center;
+  display: inline-block;
+  padding: auto;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 4px solid #8f7bc8;
+}
+.step-description-card {
+  box-sizing: border-box;
+  padding-left: 6vw;
+}
+.todo-subject {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 11vw;
+  font-size: 28px;
+  font-weight: 700;
+  color: #e7e7e7;
+  text-transform: uppercase;  
+}
+.todo-details {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 8vw;
+  padding-right: 7vw;
+  padding-bottom: 25vw;
+}
+
+.last-page {
+  height: 100vh; 
+  box-sizing: border-box;
+  background-image: url(game_767.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 3vh 6vw;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase; 
+}
+.last-page::before {
+  content: "";
+  background-color: #1b1e3f;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.9;
+}
+.logo-background {
+  width: 22vw;
+  height: 22vw;
+  margin: 14vh auto 0 auto;
+  background-color: #543aa1;
+  border-radius: 4vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+.svg-logo-1 {
+  width: 15vw;
+  fill: #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.call2action {
+  font-size: 32px;
+  padding: 0;
+  margin-top: 12vh;
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+ }
+.last-page-description {
+  font-size: 14px;
+  color: #9b8ec1;
+  margin-top: 2vh;
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+}
+.last-page-link-margin {
+  margin-top: 13vh;
+}
+.last-page-svg-margin {
+  margin-top: 14vh;
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  body {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .wellcome-page {
+    background-image: url(football_1280.jpg);
+    padding-top: 4vh;
+  }
+ .svg-logo-2 {
+    width: 28vw;
+  }
+ .welcome-subject {
+    font-size: 64px;
+  }
+  h1.welcome-subject {
+    margin: 19vh 0 0 6vw;
+  }
+  h2.welcome-subject {
+    margin: 4vh 0 0 18vw;
+    line-height: 72px;
+  }
+  .links-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .first-page-links-margin {
+    margin-top: 27vh;
+  }
+  .app-button {
+    margin: 0;
+    width: 40vw;
+    height: 8vh;
+    border-radius: 4vh;
+    font-size: 14px;
+    margin-right: 3vw;
+    padding-top: 1.5vh;
+  }
+  .app-button:last-child {
+    margin-right: 0;
+  }
+  .direct-app-link {
+    line-height: 18px;
+  }
+  .call-to-action {
+    margin-left: 3vw;
+    font-weight: 300;
+  }
+  .svg-store-icon {
+    width: 6vw;
+    margin-left: 6.5vw;
+  }
+
+  .athlets-page {
+    padding-top: 11vw;
+    position: relative;
+  }
+  .section-subject {
+    padding-left: 42vw;
+    font-size: 80px;
+  }
+  .benefit-image-png-f {
+    width: 70vw;
+    top: 3vw;
+    left: -22vw;
+  }
+  .benefit-item {
+    padding-left: 42vw;
+  }
+  .bullet-point {
+    font-size: 32px;
+  }
+  .first-num::before {
+    font-size: 18px;
+  }
+  .second-num::before {
+    font-size: 18px;
+  }
+  .third-num::before {
+    font-size: 18px;
+  }
+  .forth-num::before {
+    font-size: 18px;
+  }
+  .benefit-description {
+    margin-top: 4vw;
+    padding-bottom: 5vw;
+    padding-right: 5vw;
+  }
+  .color-f1 {
+    padding-top: 5vw;
+    margin-top: 3vw;
+  }
+  .color-f2 {
+    padding-top: 5vw;
+  }
+  .color-f3 {
+    padding-top: 6vw;
+  }
+  .color-f4 {
+    padding-top: 6vw;
+  }
+  .benefit-image-png-b {
+    left: 40vw;
+    top: -5vw;
+    width: 61vw;
+  }
+  .players-page {
+    position: relative;
+    padding-top: 11vw;
+  }
+  .shift-style {
+    padding-left: 4vw;
+    padding-right: 45vw;
+  }
+
+  .purple-square {
+    width: 15vw;
+    height: 15vw;
+    left: 4vw;
+    top: 65vw;
+  }
+  .todo-step-id {
+    font-size: 24px;
+    border-width: 5px;
+  }
+  .step-description-card {
+    padding-left: 4vw;
+  }
+  .todo-subject {
+    margin-top: 12vw;
+    font-size: 80px;
+  }
+  .todo-details {
+    font-size: 24px;
+    margin-top: 5vw;
+    padding-right: 15vw;
+    padding-bottom: 14vw;
+  } 
+
+  .last-page {
+    background-image: url(game_1280.jpg);
+    padding-top: 2vh;
+  }
+  .logo-background {
+    width: 18vw;
+    height: 18vw;
+    margin-top: 13vh;
+    border-radius: 4vw;
+  }
+  .svg-logo-1 {
+    width: 13vw;
+  }
+  .call2action {
+    font-size: 80px;
+    margin-top: 10vh;
+  }
+  .last-page-description {
+    font-size: 36px;
+    margin-top: 3vh;
+    font-weight: 400;
+  }
+  .last-page-link-margin {
+    margin-top: 32.5vh;
+  }
+  .last-page-svg-margin {
+    margin-top: 4.5vh;
+  }
+}
+
+@media (min-width: 961px) {
+  body {
+    max-width: 1920px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wellcome-page {
+    background-image: url(football_1920.jpg);
+    padding: 4vh 1vw 0 0;
+  }
+ .svg-logo-2 {
+    width: 10vw;
+  }
+ .welcome-subject {
+    font-size: 90px;
+  }
+  h1.welcome-subject {
+    margin: 31vh 0 0 10vw;
+  }
+  h2.welcome-subject {
+    margin: 3vh 0 0 20vw;
+    line-height: 100px;
+  }
+  .links-list {
+    flex-wrap: nowrap; 
+    justify-content: center;
+  }
+  .first-page-links-margin {
+    margin-top: 23vh;
+  }
+  .app-button {
+    margin: 0;
+    height: 8vh;
+    width: 17vw;
+    border-radius: 4vh;
+    margin-right: 2vw;
+    font-size: 14px;
+    padding-top: 1.4vh;
+  }
+  .app-button:last-child {
+    margin-right: 0;
+  }
+  .direct-app-link {
+    margin-right: 0;
+    line-height: 18px;
+  }
+  .call-to-action {
+    margin-left: 1vw;
+    font-weight: 300;
+  }
+  .svg-store-icon {
+    width: 2.4vw;
+    margin-left: 2.1vw;
+  }
+
+  .athlets-page {
+    padding-top: 6vw;
+    position: relative;
+  }
+  .section-subject {
+    padding-left: 42vw;
+    font-size: 80px;
+  }
+  .benefit-image-png-f {
+    width: 29vw;
+    top: -5vw;
+    left: 10vw;
+  }
+  .benefit-item {
+    padding-left: 42vw;
+  }
+  .bullet-point {
+    font-size: 36px;
+  }
+  .first-num::before {
+    font-size: 18px;
+  }
+  .second-num::before {
+    font-size: 18px;
+  }
+  .third-num::before {
+    font-size: 18px;
+  }
+  .forth-num::before {
+    font-size: 18px;
+  }
+  .benefit-description {
+    margin-top: 1vw;
+    padding-bottom: 3vw;
+    padding-right: 10vw;
+  }
+  .color-f1 {
+    padding-top: 5vw;
+    margin-top: 3vw;
+  }
+  .color-f2 {
+    padding-top: 3vw;
+  }
+  .color-f3 {
+    padding-top: 3vw;
+  }
+  .color-f4 {
+    padding-top: 3vw;
+  }
+  .benefit-image-png-b {
+    left: 37vw;
+    top: -5vw;
+    width: 50vw;
+  }
+  .players-page {
+    position: relative;
+    padding-top: 6vw;
+  }
+  .shift-style {
+    padding-left: 10vw;
+    padding-right: 40vw;
+  }
+
+  .todo-cards {
+    display: flex;
+    align-items: stretch;
+  }
+  .todo-image, .todo-banner {
+    order: 0;
+    width: 50vw;
+  }
+  .desktop-style {
+    order: 1;
+  }
+  .purple-square {
+    width: 8vw;
+    height: 8vw;
+    left: 46vw;
+    top: 11vw;
+  }
+  .todo-step-id {
+    font-size: 24px;
+    border-width: 5px;
+  }
+  .step-description-card {
+    width: 50vw;
+    padding-left: 7vw;
+  }
+  .todo-subject {
+    margin-top: 14vw;  
+    font-size: 80px;
+  }
+  .todo-details {
+    font-size: 24px;
+    margin-top: 4vw;
+    padding-right: 6vw;
+    padding-bottom: 0;
+  } 
+
+  .last-page {
+    background-image: url(game_1920.jpg);
+    padding: 2vh 0;
+  }
+  .logo-background {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 1.5vw;
+    position: absolute;
+    top: 11vh;
+    left: 22vw;
+  }
+  .svg-logo-1 {
+    width: 5vw;
+  }
+  .call2action {
+    font-size: 80px;
+    margin-top: 26vh;
+    text-align: left;
+    margin-left: 30vw;
+  }
+  .last-page-description {
+    font-size: 30px;
+    margin-top: 3vh;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 30vw;
+  }
+  .last-page-link-margin {
+    margin-top: 17vh;
+  }
+  .last-page-svg-margin {
+    margin-top: 27vh;
+  }
+}
