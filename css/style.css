@@ -18,12 +18,12 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
 }
 
 .wellcome-page {
-  height: 100vh; 
+  min-height: 100vh; 
   box-sizing: border-box;
   background-image: url(football_767.jpg);
   background-size: cover;
@@ -58,14 +58,13 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
-}
-h1.welcome-subject {
   margin-top: 24vh;
   margin-bottom: 0;
 }
-h2.welcome-subject {
+.welcome-subject-row2 {
+  display: block;
   margin: 3vh 0 0 11vw;
-} 
+}
 .links-list {
   display: flex;
   flex-wrap: wrap;
@@ -82,11 +81,11 @@ h2.welcome-subject {
   font-size: 8px;
   box-sizing: border-box;
   width: 100%;
-  height: 6vh;
+  height: 12vw;
   background-color: #5e42b0;
-  border-radius: 3vh;
-  margin-bottom: 2vh;
-  padding-top: 1vh;
+  border-radius: 6vw;
+  margin-bottom: 4.4vw;
+  padding-top: 2.8vw;
 }
 .app-button:last-child {
   margin-bottom: 0;
@@ -97,7 +96,6 @@ h2.welcome-subject {
   text-decoration: none;
   line-height: 10px;
   color: #ffffff;
-  padding: auto; 
 }
 .call-to-action {
   margin-left: 2vw;
@@ -237,7 +235,7 @@ h2.welcome-subject {
   width: 100%;
 }
 .todo-image {
-  position: relative;
+  display: block;
 }
 .purple-square {
   display: flex;
@@ -248,18 +246,18 @@ h2.welcome-subject {
   background-color: #5e42b0;
   position: absolute;
   left: 6vw;
-  top: 95vw;
+  top: -26.5vw;
 }
 .todo-step-id {
   align-self: center;
   display: inline-block;
-  padding: auto;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   border-bottom: 4px solid #8f7bc8;
 }
 .step-description-card {
+  position: relative;
   box-sizing: border-box;
   padding-left: 6vw;
 }
@@ -302,10 +300,14 @@ h2.welcome-subject {
   right: 0;
   opacity: 0.9;
 }
+.call2action-wrapper {
+  padding-top: 14vh;
+}
 .logo-background {
   width: 22vw;
   height: 22vw;
-  margin: 14vh auto 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #543aa1;
   border-radius: 4vw;
   display: flex;
@@ -330,6 +332,7 @@ h2.welcome-subject {
   text-align: center;
  }
 .last-page-description {
+  display: block;
   font-size: 14px;
   color: #9b8ec1;
   margin-top: 2vh;
@@ -354,16 +357,15 @@ h2.welcome-subject {
     background-image: url(football_1280.jpg);
     padding-top: 4vh;
   }
- .svg-logo-2 {
+  .svg-logo-2 {
     width: 28vw;
   }
- .welcome-subject {
+  .welcome-subject {
     font-size: 64px;
-  }
-  h1.welcome-subject {
+    line-height: 54px;
     margin: 19vh 0 0 6vw;
   }
-  h2.welcome-subject {
+  .welcome-subject-row2 {
     margin: 4vh 0 0 18vw;
     line-height: 72px;
   }
@@ -376,12 +378,12 @@ h2.welcome-subject {
   }
   .app-button {
     margin: 0;
-    width: 40vw;
-    height: 8vh;
-    border-radius: 4vh;
+    width: 38vw;
+    height: 10vw;
+    border-radius: 5vw;
     font-size: 14px;
     margin-right: 3vw;
-    padding-top: 1.5vh;
+    padding-top: 2vw;
   }
   .app-button:last-child {
     margin-right: 0;
@@ -405,6 +407,7 @@ h2.welcome-subject {
   .section-subject {
     padding-left: 42vw;
     font-size: 80px;
+    line-height: 70px;
   }
   .benefit-image-png-f {
     width: 70vw;
@@ -465,7 +468,7 @@ h2.welcome-subject {
     width: 15vw;
     height: 15vw;
     left: 4vw;
-    top: 65vw;
+    top: -24.5vw;
   }
   .todo-step-id {
     font-size: 24px;
@@ -477,6 +480,7 @@ h2.welcome-subject {
   .todo-subject {
     margin-top: 12vw;
     font-size: 80px;
+    line-height: 70px;
   }
   .todo-details {
     font-size: 24px;
@@ -489,10 +493,12 @@ h2.welcome-subject {
     background-image: url(game_1280.jpg);
     padding-top: 2vh;
   }
+  .call2action-wrapper {
+    padding-top: 13vh;
+  }
   .logo-background {
     width: 18vw;
     height: 18vw;
-    margin-top: 13vh;
     border-radius: 4vw;
   }
   .svg-logo-1 {
@@ -501,14 +507,16 @@ h2.welcome-subject {
   .call2action {
     font-size: 80px;
     margin-top: 10vh;
+    line-height: 70px;
   }
   .last-page-description {
     font-size: 36px;
-    margin-top: 3vh;
+    line-height: 26px;
+    margin-top: 1vh;
     font-weight: 400;
   }
   .last-page-link-margin {
-    margin-top: 32.5vh;
+    margin-top: 29.5vh;
   }
   .last-page-svg-margin {
     margin-top: 4.5vh;
@@ -526,20 +534,18 @@ h2.welcome-subject {
 
   .wellcome-page {
     background-image: url(football_1920.jpg);
-    padding: 4vh 1vw 0 0;
+    padding: 4vh 1vw 11vh 0;
   }
- .svg-logo-2 {
+  .svg-logo-2 {
     width: 10vw;
   }
- .welcome-subject {
+  .welcome-subject {
     font-size: 90px;
-  }
-  h1.welcome-subject {
     margin: 31vh 0 0 10vw;
+    line-height: 80px;
   }
-  h2.welcome-subject {
+  .welcome-subject-row2 {
     margin: 3vh 0 0 20vw;
-    line-height: 100px;
   }
   .links-list {
     flex-wrap: nowrap; 
@@ -550,12 +556,12 @@ h2.welcome-subject {
   }
   .app-button {
     margin: 0;
-    height: 8vh;
-    width: 17vw;
-    border-radius: 4vh;
+    width: 314px;
+    height: 78px;
+    border-radius: 39px;
     margin-right: 2vw;
     font-size: 14px;
-    padding-top: 1.4vh;
+    padding-top: 18px;
   }
   .app-button:last-child {
     margin-right: 0;
@@ -569,8 +575,8 @@ h2.welcome-subject {
     font-weight: 300;
   }
   .svg-store-icon {
-    width: 2.4vw;
-    margin-left: 2.1vw;
+    width: 42px;
+    margin-left: 55px;
   }
 
   .athlets-page {
@@ -580,6 +586,7 @@ h2.welcome-subject {
   .section-subject {
     padding-left: 42vw;
     font-size: 80px;
+    line-height: 70px;
   }
   .benefit-image-png-f {
     width: 29vw;
@@ -591,6 +598,7 @@ h2.welcome-subject {
   }
   .bullet-point {
     font-size: 36px;
+    line-height: 30px;
   }
   .first-num::before {
     font-size: 18px;
@@ -633,7 +641,7 @@ h2.welcome-subject {
   }
   .shift-style {
     padding-left: 10vw;
-    padding-right: 40vw;
+    padding-right: 35vw;
   }
 
   .todo-cards {
@@ -642,7 +650,8 @@ h2.welcome-subject {
   }
   .todo-image, .todo-banner {
     order: 0;
-    width: 50vw;
+    display: block;
+    width: 49vw;
   }
   .desktop-style {
     order: 1;
@@ -650,60 +659,69 @@ h2.welcome-subject {
   .purple-square {
     width: 8vw;
     height: 8vw;
-    left: 46vw;
-    top: 11vw;
+    left: -4vw;
+    top: 12vw;
+  }
+  .desktop-shift {
+    left: 45vw;
   }
   .todo-step-id {
     font-size: 24px;
     border-width: 5px;
   }
   .step-description-card {
-    width: 50vw;
+    width: 49vw;
     padding-left: 7vw;
   }
   .todo-subject {
     margin-top: 14vw;  
     font-size: 80px;
+    line-height: 70px;
   }
   .todo-details {
     font-size: 24px;
     margin-top: 4vw;
     padding-right: 6vw;
-    padding-bottom: 0;
+    padding-bottom: 15px;
   } 
 
   .last-page {
     background-image: url(game_1920.jpg);
     padding: 2vh 0;
   }
+  .call2action-wrapper {
+    padding-top: 24vh;
+    display: flex;
+    justify-content: center;
+  }
   .logo-background {
-    width: 7vw;
-    height: 7vw;
-    border-radius: 1.5vw;
-    position: absolute;
-    top: 11vh;
-    left: 22vw;
+    margin: 0;
+    width: 133px;
+    height: 133px;
+    border-radius: 20px;
   }
   .svg-logo-1 {
-    width: 5vw;
+    width: 100px;
   }
   .call2action {
+    margin: 0;
+    margin-left: 35px;
+    margin-top: 15px;
     font-size: 80px;
-    margin-top: 26vh;
     text-align: left;
-    margin-left: 30vw;
+    line-height: 70px;
   }
   .last-page-description {
     font-size: 30px;
-    margin-top: 3vh;
+    line-height: 20px;
+    margin-top: 8px;
     font-weight: 400;
     text-align: left;
-    margin-left: 30vw;
   }
   .last-page-link-margin {
-    margin-top: 17vh;
+    margin-top: 15vh;
   }
   .last-page-svg-margin {
-    margin-top: 27vh;
+    margin-top: 18vh;
   }
 }
