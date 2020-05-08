@@ -279,7 +279,7 @@ body {
 }
 
 .last-page {
-  height: 100vh; 
+  min-height: 100vh; 
   box-sizing: border-box;
   background-image: url(game_767.jpg);
   background-size: cover;
